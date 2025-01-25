@@ -1,0 +1,21 @@
+html,
+body,#root {
+    height: 100%; /* Important! */
+    margin: 0; /* Often needed to remove default body margins */
+}
+
+.dashboardLayout{
+    display: flex;
+    gap : 50px;
+    padding-top: 20px;
+    min-height: 100vh;
+}
+
+.menu{
+    flex: 1;
+}
+
+.content{
+    flex : 4;
+    background-color: #12101b;
+}
